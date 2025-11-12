@@ -1,0 +1,5 @@
+{
+  "name": "NutriAI",
+  "description": "A personalized diet planner powered by the Gemini API. It generates a 7-day meal plan based on your personal details, dietary preferences, and fitness goals, using a dataset of Indian food items.",
+  "requestFramePermissions": []
+}
