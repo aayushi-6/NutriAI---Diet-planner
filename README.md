@@ -1,20 +1,89 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧩 NutriAI — AI-Powered 7-Day Indian Diet Planner  
 
-# Run and deploy your AI Studio app
+**NutriAI** is a modern, responsive web application that uses **Google’s Gemini API** to generate **personalized 7-day diet plans** tailored to Indian cuisine.  
+It combines a sleek **React + TypeScript** frontend with a secure **Python (Flask/FastAPI)** backend to deliver accurate, balanced, and goal-driven meal recommendations.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 🚀 Overview  
 
-## Run Locally
+NutriAI helps users design nutrition plans aligned with their body metrics, fitness goals, and dietary preferences.  
+The app uses Gemini AI to craft healthy and diverse weekly meal plans, accounting for allergies and cultural food habits.
 
-**Prerequisites:**  Node.js
+---
 
+## 🏗️ Architecture  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+NutriAI follows a modern **client-server** architecture:
+
+| Layer | Description |
+|--------|-------------|
+| **Frontend (Client)** | Built with **React, TypeScript, and Tailwind CSS**. Collects user details, preferences, and goals, then displays the AI-generated plan beautifully. |
+| **Backend (Server)** | A **Python Flask/FastAPI** service that securely manages the Gemini API key, processes user inputs, and generates AI-driven meal plans via the **Google Gemini API**. |
+
+---
+
+## ⚙️ Features  
+
+✅ **Secure API Key Management** – Gemini API key stored safely on backend only.  
+👤 **Personalized Inputs** – Accepts user data like age, height, weight, and goals.  
+🥗 **Allergy-Aware Diets** – Avoids allergenic food items automatically.  
+🤖 **AI-Generated Plans** – Uses Google Gemini to create a 7-day Indian diet plan.  
+📄 **Structured Output** – Ensures consistent, validated JSON data.  
+📱 **Responsive UI** – Clean mobile-first interface using Tailwind CSS.  
+
+---
+
+## 🧠 Tech Stack  
+
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | React, TypeScript, Tailwind CSS, Vite |
+| **Backend** | Python, Flask (or FastAPI), Google Gemini API |
+| **Environment** | Node.js, pip, .env for secure key management |
+
+---
+
+## 🧩 API Workflow  
+
+1️⃣ **Frontend collects** user details and goals.  
+2️⃣ **Sends a POST request** to `http://localhost:5000/api/generate-plan`.  
+3️⃣ **Backend builds** a structured AI prompt using user data and Indian food dataset.  
+4️⃣ **Gemini API generates** a complete 7-day diet plan.  
+5️⃣ **Backend returns structured JSON**, which frontend displays as a weekly table.
+
+---
+
+## 🛠️ Setup Instructions  
+
+### 🔹 Prerequisites
+- Node.js (v18+)
+- Python (v3.9+)
+- Google Gemini API Key (Get from [Google AI Studio](https://aistudio.google.com/))
+
+---
+
+## 🧩 API Workflow  
+
+1️⃣ **Frontend collects** user details and goals.  
+2️⃣ **Sends a POST request** to `http://localhost:5000/api/generate-plan`.  
+3️⃣ **Backend builds** a structured AI prompt using user data and Indian food dataset.  
+4️⃣ **Gemini API generates** a complete 7-day diet plan.  
+5️⃣ **Backend returns structured JSON**, which the frontend displays as a weekly table.  
+
+---
+
+## ⚠️ Disclaimer  
+
+> This application is for **informational and educational purposes only**.  
+> It is **not a substitute for professional medical or dietary advice**.  
+> Always consult a certified nutritionist or healthcare professional before making major dietary changes.  
+
+---
+
+## ✨ Team Members
+
+**Aayushi Soni**  
+**Ishitaba Umat**
+ 
+ 
