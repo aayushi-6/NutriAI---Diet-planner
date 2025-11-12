@@ -83,7 +83,7 @@ NutriAI follows a modern **client-server** architecture:
 
 ## ✨ Team Members
 
-**Aayushi Soni**  
-**Ishitaba Umat**
+**Aayushi Soni - IAR/12981**  
+**Ishitaba Umat - IAR/13005**
  
  
